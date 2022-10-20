@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="199dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="60dp"
+        android:text="Languages"
+        android:textColor="#2A8F9C"
+        android:textSize="34sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="74dp" />
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:layout_width="216dp"
+        android:layout_height="65dp"
+        android:onClick="checkSelect"
+        android:text="English"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <CheckBox
+        android:id="@+id/c2"
+        android:layout_width="214dp"
+        android:layout_height="70dp"
+        android:onClick="checkSelect"
+        android:text="Malayalam"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+</LinearLayout>
